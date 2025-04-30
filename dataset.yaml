@@ -1,0 +1,5 @@
+train: /content/drive/MyDrive/YOLOv8/abc1/images/train
+val: /content/drive/MyDrive/YOLOv8/abc1/images/val
+test: /content/drive/MyDrive/YOLOv8/abc1/images/test
+nc: 1
+names: ["Chestnut gall"]

@@ -1,0 +1,36 @@
+	> CMD (klasörde git oluşturma)
+
+
+cd "C:\Users\yavuz\OneDrive - uludag.edu.tr\1-YOLO"
+git init
+git add .
+git commit -m "yolo modeli eğitimi projesi"
+
+	> CMD (GitHub Repository'yi Yerelle Bağla) 
+
+git remote add origin https://github.com/yavuzxyz/yolo_colab.git
+git branch -M main
+git push -u origin main
+
+	> CMD (GÜNCELLEME)
+cd "C:\Users\yavuz\OneDrive - uludag.edu.tr\1-YOLO"
+git add .
+git commit -m "Yaptığın değişikliklerin açıklaması"
+git push
+
+
+
+
+create a new repository on the command line
+echo "# gubre" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/yavuzxyz/gubre.git
+git push -u origin main
+
+push an existing repository from the command line
+git remote add origin https://github.com/yavuzxyz/gubre.git
+git branch -M main
+git push -u origin main

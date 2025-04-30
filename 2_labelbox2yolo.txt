@@ -1,0 +1,20 @@
+Öncelikle, Anaconda Prompt'u açın.
+
+İlk adımda, belirli bir repo'yu klonlamak istediğinizi belirttiniz. Bunun için aşağıdaki komutu kullanabilirsiniz:
+
+bash
+Copy code
+git clone https://github.com/roboflow-ai/labelbox2yolo.git
+Şimdi, yeni oluşturduğunuz repo'nun içine gitmek için aşağıdaki komutu kullanabilirsiniz:
+
+
+cd labelbox2yolo
+Daha sonra, gereksinimleri yüklemek için aşağıdaki komutu kullanabilirsiniz:
+
+
+pip install -r requirements.txt
+Son olarak, dönüştürücüyü çalıştırmak için aşağıdaki komutu kullanabilirsiniz (yalnızca [YOUR_LABELBOX_EXPORT.json] ve [YOUR_OUTPUT_DIRECTORY] yerlerini kendi dosya yollarınızla değiştirin):
+
+
+python labelbox2yolo.py --input_file=[YOUR_LABELBOX_EXPORT.json] --output_dir=[YOUR_OUTPUT_DIRECTORY] --split_pct=0.1
+Bu adımları Spyder üzerinden yapmak için, Spyder'da yeni bir Python dosyası oluşturup her bir komutu Python komutlarına çevirerek çalıştırabilirsiniz. Ancak, bu daha karmaşık olabilir ve genellikle gereksizdir. Bu nedenle, genellikle bu tür işlemler için Anaconda Prompt veya başka bir komut satırı aracı kullanmanız önerilir.
